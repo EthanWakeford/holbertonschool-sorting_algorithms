@@ -33,7 +33,8 @@ void swap(int *a, int *b);
 void heapify(int *array, int sub_array_size, size_t size, int i);
 void split(int *A, int *B, int left, int right);
 void print_subarray(int *arr, int start, int end);
-
-
+void radix_sort(int *array, size_t size);
+int get_digit(int digit, int num);
+int digit_bubble_sort(int *array, size_t size, int digit);
 
 #endif
