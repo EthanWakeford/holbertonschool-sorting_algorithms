@@ -11,6 +11,9 @@ void radix_sort(int *array, size_t size)
 {
 	int digit = 10, sorting = 1;
 
+	if (size == 1)
+		return;
+
 	while (1)
 	{
 		sorting = digit_bubble_sort(array, size, digit);
